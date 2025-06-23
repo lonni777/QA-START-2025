@@ -6,7 +6,13 @@ public class Car {
 
     public String color;
 
-    public void goTo() {
-        System.out.println(color + " car is going somewhere");
+    // Колір - властивjcns машин (Червоний,Синій)
+    public Car(String color) {
+        this.color = color;
+    }
+
+    // Метод про можливості машин
+    public void goTo(String city) {
+        System.out.println(color + " car is going " + city);
     }
 }
