@@ -2,7 +2,6 @@ package org.prog.session2;
 
 //TODO: 1 add method to polish cars
 //TODO: 2. Polish method must print "polishing + color of car"
-// домашнє завдання тест
 
 public class CarPainter {
 

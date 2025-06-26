@@ -28,4 +28,8 @@ public class CarService {
     private void coffeeBreak(CarPainter carPainter) {
         System.out.println("coffeBreak for " + carPainter.breakDuration);
     }
+
+    public static void polishCar(Car2 car){
+        System.out.println("Polishing " + car.color + " of car");
+    }
 }
