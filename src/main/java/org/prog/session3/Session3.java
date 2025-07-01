@@ -1,5 +1,9 @@
 package org.prog.session3;
 
+import org.prog.session3.phones.AndroidPhone;
+import org.prog.session3.phones.ICamera;
+import org.prog.session3.phones.IPhone;
+import org.prog.session3.phones.Phone;
 import org.prog.session3.poly.BMW;
 import org.prog.session3.poly.ICar;
 import org.prog.session3.poly.Mazda;
@@ -7,7 +11,6 @@ import org.prog.session3.poly.Renault;
 
 //TODO: Add interface ICamera for phones to take photos. Implement in Adnroid and iPhoine
 //TODO: take two photos :)
-// homework-3
 
 public class Session3 {
 
@@ -34,6 +37,13 @@ public class Session3 {
         mazda.driveTo("Lviv", "Odessa");
         System.out.println("===================================");
         mazda.driveTo("Lviv", "Odessa", "Dnipro");
+        System.out.println("===================================");
+
+        IPhone IPhone = new IPhone();
+        AndroidPhone AndroidPhone = new AndroidPhone();
+
+        AndroidPhone.takePhotos();
+        IPhone.takePhotos();
 
 //        driveTo(mazda);
 //        System.out.println("==============================");
@@ -60,8 +70,5 @@ public class Session3 {
 //        org.prog.session1.Car car = new org.prog.session1.Car();
 //        org.prog.session2.Car car2 = new org.prog.session2.Car();
 
-
     }
-
-
-}
+    }
