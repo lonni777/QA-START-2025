@@ -7,6 +7,7 @@ import org.prog.session3.poly.Renault;
 
 //TODO: Add interface ICamera for phones to take photos. Implement in Adnroid and iPhoine
 //TODO: take two photos :)
+// homework-3
 
 public class Session3 {
 
