@@ -16,4 +16,9 @@ public class Renault implements ICar {
     public void brake() {
         System.out.println("Renault brakes!");
     }
+
+    @Override
+    public void drive() {
+        System.out.println("Renault drive");
+    }
 }

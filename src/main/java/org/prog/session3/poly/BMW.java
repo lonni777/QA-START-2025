@@ -16,4 +16,9 @@ public class BMW implements ICar {
     public void brake() {
         System.out.println("BMW never brakes");
     }
+
+    @Override
+    public void drive() {
+        System.out.println("BMW drive");
+    }
 }

@@ -6,6 +6,10 @@ package org.prog.session3.poly;
 
 public class Mazda implements ICar {
 
+    public void driveTo(String destination, String from, String addPassegers, String stoppingAt, String payToGas ){
+       System.out.println("Mazda drive from " + from + addPassegers + stoppingAt + payToGas + stoppingAt);
+    }
+
     public void driveTo(String destination) {
         driveTo(destination, "here and now");
     }
@@ -35,6 +39,9 @@ public class Mazda implements ICar {
 
     @Override
     public void brake() {
-        System.out.println("Mazba brakes");
+        System.out.println("Mazda brakes");
     }
+
+    @Override
+    public void drive() {System.out.println("Mazda drive to to contain");}
 }

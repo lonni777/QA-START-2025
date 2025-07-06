@@ -7,4 +7,6 @@ public interface ICar {
     void accelerate();
 
     void brake();
+
+    void drive();
 }

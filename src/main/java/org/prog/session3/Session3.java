@@ -1,16 +1,19 @@
 package org.prog.session3;
 
 import org.prog.session3.phones.AndroidPhone;
-import org.prog.session3.phones.ICamera;
 import org.prog.session3.phones.IPhone;
-import org.prog.session3.phones.Phone;
 import org.prog.session3.poly.BMW;
 import org.prog.session3.poly.ICar;
 import org.prog.session3.poly.Mazda;
 import org.prog.session3.poly.Renault;
-
+//TODO: 1
 //TODO: Add interface ICamera for phones to take photos. Implement in Adnroid and iPhoine
 //TODO: take two photos :)
+
+//TODO: 2
+//TODO: write overloaded drive to to contain:
+//TODO: - amount of passengers  def: 0
+//TODO: - is payment for gas split def: no
 
 public class Session3 {
 
@@ -25,6 +28,7 @@ public class Session3 {
         mazda.turn("left");
         mazda.brake();
         mazda.brake();
+        mazda.drive();
     }
 
     public static void main(String[] args) {
@@ -38,12 +42,16 @@ public class Session3 {
         System.out.println("===================================");
         mazda.driveTo("Lviv", "Odessa", "Dnipro");
         System.out.println("===================================");
+        mazda.driveTo("Kiev-Uzhorod", "Kiev", " with 5 passengers", " stopping in Lviv ", "and passengers is not payment for gas split");
+        System.out.println("===================================");
+
 
         IPhone IPhone = new IPhone();
         AndroidPhone AndroidPhone = new AndroidPhone();
 
         AndroidPhone.takePhotos();
         IPhone.takePhotos();
+        System.out.println("//==//==//==//==//==//==//==//==//");
 
 //        driveTo(mazda);
 //        System.out.println("==============================");
