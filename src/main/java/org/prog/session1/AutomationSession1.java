@@ -21,5 +21,6 @@ public class AutomationSession1 {
 
         Car car = new Car();
         car.color = "red";
+        car.model ="";
     }
 }

@@ -7,6 +7,7 @@ import org.w3c.dom.css.CSSStyleRule;
 public class Car {
 
     public String color;
+    public String model;
 
     public void goTo() {
         System.out.println(color + " car is going somewhere");
