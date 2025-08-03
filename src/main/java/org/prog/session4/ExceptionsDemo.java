@@ -1,10 +1,5 @@
 package org.prog.session4;
 
-import org.prog.session1.Car;
-
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-
 public class ExceptionsDemo {
     public static int counter = 0;
 

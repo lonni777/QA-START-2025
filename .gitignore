@@ -26,3 +26,5 @@ replay_pid*
 out
 target
 *.iml
+/docker/jenkins_local/jenkins_configuration/
+/docker/jenkins_local/docker.sock/

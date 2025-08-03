@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "gender": "Male",
+      "name": {
+        "title": "Mr",
+        "first": "Hans-Gerhard",
+        "last": "Liebich"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "Female",
+      "name": {
+        "title": "Mrs",
+        "first": "Sandra",
+        "last": "Calvo"
+      },
+      "nat": "ES"
+    },
+    {
+      "gender": "Female",
+      "name": {
+        "title": "Mrs",
+        "first": "Riley",
+        "last": "Mills"
+      },
+      "nat": "US"
+    }
+  ]
+}

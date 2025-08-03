@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Client side functionality" verbose="1">
+    <test name="Make order and pay for it">
+        <classes>
+            <class name="org.prog.session11.CucumberRunner"/>
+        </classes>
+    </test>
+</suite>

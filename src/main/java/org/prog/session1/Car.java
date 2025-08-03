@@ -1,7 +1,5 @@
 package org.prog.session1;
 
-import org.w3c.dom.css.CSSStyleRule;
-
 //TODO: HW4: add String model and make equals & hashCode work by model and color
 // Homework-4 2
 public class Car {

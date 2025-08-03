@@ -49,9 +49,6 @@ public class AutomationSession2 {
 
         System.out.println("Alice: " + aliceCar.color);
         System.out.println("My Wife's Car: " + myWifesCar.color);
-
-        int i = 10; // --> 10
-        smth(i);
     }
 
     public static void smth(int i) {
