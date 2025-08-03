@@ -1,8 +1,5 @@
 import java.util.*;
 
-//TODO: write Map with car owners as keys and owned cars as values
-//TODO: assign each car random color using randomColor() from this class
-
 public class HomeWork_5 {
 
     public static void main(String[] args) {
