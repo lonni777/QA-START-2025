@@ -10,4 +10,9 @@
             <class name="org.prog.session6.TestNG2"/>
         </classes>
     </test>
+    <test name="HomeWork6">
+        <classes>
+            <class name="org.prog.session6.TestNG_HW6"/>
+        </classes>
+    </test>
 </suite>
