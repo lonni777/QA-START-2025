@@ -9,7 +9,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-//TODO: load allo.ua, search for iPhone
+//TODO: load allo.ua, search for iPhone (HomeWork-7-05.08.2025)
 
 public class WebTest {
 
