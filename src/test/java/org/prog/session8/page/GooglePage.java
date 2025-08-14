@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 //TODO: add allo.ua page and move iphone search there
-//TODO: confirm price has ₴ sign in it
+//TODO: confirm price 62799 has ₴ sign in it
 
 
 public class GooglePage {
